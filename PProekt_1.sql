@@ -1,3 +1,4 @@
+-- This is a sample of SQL queries used for data extraction and transformation in the marketing project.--
 with daliy_spend as (
 select ad_date, 'Google' AS platform,
 spend AS daily_spend
