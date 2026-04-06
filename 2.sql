@@ -1,3 +1,4 @@
+-- This is a sample of SQL queries used for data extraction and transformation in the marketing project.--
 with google_facebook_ads as (
 select ad_date, decode_url_part(url_parameters) as url_parameters, coalesce(spend, 0) as spend,
 coalesce(impressions, 0) as impressions,
